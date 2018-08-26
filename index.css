@@ -83,4 +83,6 @@ menu a.active {
   .right {
     max-width: 800px;
   }
+  .item {
+  margin-bottom: 40px;
 }
