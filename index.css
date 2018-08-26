@@ -58,6 +58,7 @@ menu a.active {
 .right {
   padding: 15px;
   padding-bottom: 30px;
+  width: 100%;
 }
 .item {
   margin-bottom: 15px;
