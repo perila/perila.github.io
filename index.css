@@ -7,7 +7,8 @@ body {
   background: #fff;
   color: #222;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-size: 14px;
+  font-size: 12px;
+  text-transform: uppercase;
 }
 * {
   box-sizing: border-box;
@@ -37,16 +38,49 @@ img {
   text-decoration: underline;
 }
 menu li {
-  margin-bottom: 17px;
-  text-transform: uppercase;
+  margin-bottom: 13px;
+}
+menu li:last-child {
+  margin-bottom: 0;
+}
+menu a.active {
+  text-decoration: underline;
+  pointer-events: none;
 }
 .menu-secondary {
-  margin-left: 17px;
-  margin-top: 17px;
+  margin-left: 13px;
+  margin-top: 13px;
+  margin-bottom: 16px;
 }
 .left {
-  padding: 40px;
+  padding: 15px;
+}
+.right {
+  padding: 15px;
+}
+.item {
+  margin-bottom: 15px;
+}
+.item:last-child {
+  margin-bottom: 0;
+}
+.item a {
+  text-decoration: underline;
+}
+.item a:hover {
+  text-decoration: none;
 }
 @media only screen and (min-width: 1000px) {
-
+  .left, .right {
+    display: inline-block;
+    vertical-align: top;
+    padding: 40px;
+  }
+  .left {
+    position: sticky;
+    top: 0;
+  }
+  .right {
+    max-width: 800px;
+  }
 }
