@@ -77,6 +77,10 @@ menu a.active {
   margin-top: 4px;
   display: block;
 }
+video {
+  display: block;
+  width: 100%;
+}
 @media only screen and (min-width: 1000px) {
   .left, .right {
     display: inline-block;
