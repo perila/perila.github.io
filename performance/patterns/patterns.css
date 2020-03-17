@@ -1,0 +1,28 @@
+.player {
+  padding: 15px;
+  padding-bottom: 40px;
+}
+.player-item {
+  margin-bottom: 15px;
+}
+.player-item:last-child {
+  margin-bottom: 0;
+}
+.player-title {
+  margin-bottom: 5px;
+}
+.player audio {
+  width: 100%;
+}
+@media only screen and (min-width: 1000px) {
+  .player {
+    width: 100%;
+    max-width: 300px;
+    padding-top: 40px;
+    padding-right: 20px;
+    padding-left: 0;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  }
+}

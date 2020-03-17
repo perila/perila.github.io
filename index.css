@@ -11,7 +11,8 @@ body {
   text-transform: uppercase;
 }
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 ul, menu {
   list-style: none;
@@ -82,6 +83,14 @@ video {
   width: 100%;
 }
 @media only screen and (min-width: 1000px) {
+  .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
   .mainpage-item {
     position: absolute;
     bottom: 40px;
@@ -94,6 +103,7 @@ video {
     padding: 40px;
   }
   .left {
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
   }
