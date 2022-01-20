@@ -119,10 +119,15 @@ _::-webkit-full-page-media, _:future, :root #container {
 
 .content img {
   display: block;
-  width: 45%;
-  height: 80%;
+  width: 100%;
+  height: 95%;
   -o-object-fit: contain;
      object-fit: contain;
+}
+
+.content.two-col img {
+  width: 45%;
+  height: 80%;
 }
 
 .video-wrapper {
