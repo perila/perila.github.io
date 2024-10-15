@@ -39,6 +39,7 @@ img {
   text-decoration: underline;
 }
 menu li {
+  font-weight: bold;
   margin-bottom: 13px;
 }
 menu li:last-child {
